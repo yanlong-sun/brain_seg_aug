@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: report_brain_seg.aux
+The style file: plain.bst
+Database file #1: reference.bib
+Too many commas in name 1 of "Warfield, S.K., Zou, K.H. and Wells, W.M." for entry dataset
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Warfield, S.K., Zou, K.H. and Wells, W.M." for entry dataset
+while executing---line 1090 of file plain.bst
+You've used 2 entries,
+            2118 wiz_defined-function locations,
+            511 strings with 4466 characters,
+and the built_in function-call counts, 760 in all, are:
+= -- 78
+> -- 31
+< -- 1
++ -- 12
+- -- 10
+* -- 45
+:= -- 125
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 11
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 33
+empty$ -- 59
+format.name$ -- 10
+if$ -- 166
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 12
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 0
+skip$ -- 27
+stack$ -- 0
+substring$ -- 42
+swap$ -- 12
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 7
+width$ -- 3
+write$ -- 25
+(There were 2 error messages)

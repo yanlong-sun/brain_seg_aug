@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{buda}
+Mateusz Buda, Ashirbani Saha, and Maciej~A Mazurowski.
+\newblock Association of genomic subtypes of lower-grade gliomas with shape
+  features automatically extracted by a deep learning algorithm.
+\newblock {\em Computers in Biology and Medicine}, 109, 2019.
+
+\bibitem{dataset}
+Zou~K.H. Warfield, S.K. and W.M. Wells.
+\newblock Simultaneous truth and performance level estimation (staple): an
+  algorithm for the validation of image segmentation.
+\newblock In {\em IEEE transactions on medical imaging}, pages 903--921. IEEE,
+  2004.
+
+\end{thebibliography}

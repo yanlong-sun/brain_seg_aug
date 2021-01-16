@@ -22,8 +22,8 @@ def data_aug():
         random_order=True)
 
     n = 1
-    training_image_path = './data/train/'
-    aug_image_path = './data/train_aug/'
+    training_image_path = './data/valid/'
+    aug_image_path = './data/valid_aug/'
     shutil.copytree(training_image_path, aug_image_path)
     images_list = os.listdir(training_image_path)
     num_slices = len(images_list)

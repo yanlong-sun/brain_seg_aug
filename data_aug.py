@@ -16,7 +16,6 @@ def data_aug():
                           iaa.GaussianBlur(sigma=(0, 1.0))
                           ),  # blur images with a sigma of 0 to 3.0
             iaa.LinearContrast((0.4, 2.5)),
-            iaa.ElasticTransformation(alpha=10, sigma=3),
             iaa.Sharpen((0.0, 1.0))
             ],
         random_order=True)

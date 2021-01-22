@@ -113,11 +113,8 @@ function [] = save_preprocessed_images(slices, mask, destination_path, prefix, n
         imageSlices = slices(:, :, startSlice:(startSlice + slicesPerImage - 1));
         maskSlices = mask(:, :, startSlice:(startSlice + slicesPerImage - 1));
         
-        %%% save vaild image for training 
-       % if (startSlice) > 45 && (startSlice) < n3-45
-            saveastiff(imageSlices, [destination_path prefix '_' num2str(easy_sort + startSlice) '.tif']);
-            saveastiff(maskSlices, [destination_path prefix '_' num2str(easy_sort + startSlice) '_mask.tif']);
-        %end
+        saveastiff(imageSlices, [destination_path prefix '_' num2str(easy_sort + startSlice) '.tif']);
+        saveastiff(maskSlices, [destination_path prefix '_' num2str(easy_sort + startSlice) '_mask.tif']);
         
         
     end

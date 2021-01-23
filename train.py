@@ -23,7 +23,7 @@ log_path = '.'
 gpu = '0'
 
 epochs = 256    #128
-batch_size = 64  #32
+batch_size = 16  #32
 base_lr = 1e-5
 
 
